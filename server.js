@@ -1,15 +1,10 @@
 #!/usr/bin/env node
 
-/* File name: server.js
- * Student name: Naveen Kanmani Thirunavukkarasu
- * Student ID: 301247248
- * Date: Oct 17, 2022 */
-
 /**
  * Module dependencies.
  */
 
-var app = require('./app');
+var app = require('./server/config/app');
 var debug = require('debug')('week-4:server');
 var http = require('http');
 
