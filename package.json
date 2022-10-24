@@ -1,5 +1,5 @@
 {
-  "name": "comp229-f2020-week6",
+  "name": "naveen_web_app_2",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -46,12 +46,12 @@
   "main": "server.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tsiliopoulos/COMP229-F2020-Lesson6.git"
+    "url": "git+https://github.com/ktnaveen1174/WebAppAssignment2.git"
   },
-  "author": "Tom Tsiliopoulos",
+  "author": "Naveen",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tsiliopoulos/COMP229-F2020-Lesson6/issues"
+    "url": "https://github.com/ktnaveen1174/WebAppAssignment2.git/issues"
   },
-  "homepage": "https://github.com/tsiliopoulos/COMP229-F2020-Lesson6#readme"
+  "homepage": "https://github.com/ktnaveen1174/WebAppAssignment2.git#readme"
 }
