@@ -42,7 +42,7 @@
     "@types/passport-local": "^1.0.33",
     "@types/passport-local-mongoose": "^4.0.13"
   },
-  "description": "A demo app for COMP229 Week 6",
+  "description": "Naveen Web Assignment 2",
   "main": "server.js",
   "repository": {
     "type": "git",
