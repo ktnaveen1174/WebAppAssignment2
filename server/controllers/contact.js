@@ -36,7 +36,7 @@ module.exports.displayAddPage = (req, res, next) => {
 }
 
 module.exports.processAddPage = (req, res, next) => {
-    let newBook = Contact({
+    let newContact = Contact({
         "name": req.body.name,
         "number": req.body.number,
         "email": req.body.email,
@@ -61,7 +61,7 @@ module.exports.processAddPage = (req, res, next) => {
 module.exports.displayEditPage = (req, res, next) => {
     let id = req.params.id;
 
-    Book.findById(id, (err, bookToEdit) => {
+    Contact.findById(id, (err, contactToEdit) => {
         if(err)
         {
             console.log(err);
