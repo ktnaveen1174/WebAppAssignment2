@@ -1,6 +1,6 @@
 module.exports = 
 {
-    //"URI": "mongodb://localhost/book_store"
-    "URI": "mongodb+srv://thomas:Hq3DKYN2NaAqGyyV@mongodbserver.k15hk.azure.mongodb.net/book_store?retryWrites=true&w=majority",
+    //"URI": "mongodb://127.0.0.1:27017/portfolio_db",
+    "URI": "mongodb+srv://delicia99:comp229@clusterone.ctm30b0.mongodb.net/portfolio_db?retryWrites=true&w=majority",
     "Secret": 'SomeSecret'
 }
