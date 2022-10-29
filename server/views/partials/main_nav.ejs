@@ -6,56 +6,48 @@
     <span class="navbar-toggler-icon"></span>
   </button>
   
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
-
-        <% if (title == "Home"){ %>
-        <li class="nav-item active">
-        <% } else  { %>
-        <li class="nav-item">
-        <% } %>
-          <a class="nav-link" href="/home"><i class="fas fa-lg fa-laptop-house"></i> Home </a>
-        </li>
-
-        <% if (title == "About") { %>
-        <li class="nav-item active">
-        <% } else  { %>
-        <li class="nav-item">
-        <% } %>
-          <a class="nav-link" href="/aboutme"><i class="fas fa-info-circle"></i> About </a>
-        </li>
-
-        <% if (title == "Products") { %>
-        <li class="nav-item active">
-        <% } else  { %>
-        <li class="nav-item">
-        <% } %>
-          <a class="nav-link" href="/product"><i class="fab fa-elementor"></i> Products </a>
-        </li>
-
-        <% if (title == "Services") { %>
-        <li class="nav-item active">
-        <% } else  { %>
-        <li class="nav-item">
-        <% } %>
-          <a class="nav-link" href="/service"><i class="fas fa-cogs"></i> Services </a>
-        </li>
-
-        <!-- <% if (title == "Books") { %>
-        <li class="nav-item active">
-        <% } else  { %>
-        <li class="nav-item">
-        <% } %>
-          <a class="nav-link" href="/book-list"><i class="fas fa-book"></i> Books </a>
-        </li> -->
-
-        <% if (title == "Contact") { %>
-        <li class="nav-item active">
-        <% } else  { %>
-        <li class="nav-item">
-        <% } %>
-          <a class="nav-link" href="/contact"><i class="fas fa-mobile-alt"></i> Contact </a>
-        </li>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+<!-- Home -->
+      <% if (title == "Home"){ %>
+      <li class="nav-item active">
+      <% } else  { %>
+      <li class="nav-item">
+      <% } %>
+        <a class="nav-link" href="/home"><i class="fas fa-lg fa-laptop-house"></i> Home </a>
+      </li>
+<!-- About Me -->
+      <% if (title == "About Me") { %>
+      <li class="nav-item active">
+      <% } else  { %>
+      <li class="nav-item">
+      <% } %>
+        <a class="nav-link" href="/about"><i class="fas fa-info-circle"></i> About Me</a>
+      </li>
+<!-- Products -->
+      <% if (title == "Products") { %>
+      <li class="nav-item active">
+      <% } else  { %>
+      <li class="nav-item">
+      <% } %>
+        <a class="nav-link" href="/products"><i class="fab fa-elementor"></i> Products </a>
+      </li>
+<!-- Services -->
+      <% if (title == "Services") { %>
+      <li class="nav-item active">
+      <% } else  { %>
+      <li class="nav-item">
+      <% } %>
+        <a class="nav-link" href="/services"><i class="fas fa-cogs"></i> Services </a>
+      </li>
+<!-- Contact Me -->
+      <% if (title == "Contact Me") { %>
+      <li class="nav-item active">
+      <% } else  { %>
+      <li class="nav-item">
+      <% } %>
+        <a class="nav-link" href="/contact"><i class="fas fa-mobile-alt"></i> Contact Me </a>
+      </li>
 
         <% if(typeof displayName == 'string' && displayName) { %>
           <li class="navbar-text"><i class="fas fa-lg fa-user"></i> Welcome, <%= displayName %></li>
