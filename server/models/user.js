@@ -1,3 +1,8 @@
+/* File name: user.js
+ * Student name: Naveen Kanmani Thirunavukkarasu
+ * Student ID: 301247248
+ * Date: Oct 17, 2022 */
+
 // require modules for the User Model
 let mongoose = require('mongoose');
 let passportLocalMongoose = require('passport-local-mongoose');
