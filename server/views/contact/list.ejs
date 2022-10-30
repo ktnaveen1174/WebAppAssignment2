@@ -22,7 +22,7 @@
                         <th class="text-center col-3">Name</th>
                         <th class="text-center col-3">Contact number</th>
                         <th class="text-center col-3">Email</th>
-                        <th class="text-center col-2"></th>
+                       <!-- <th class="text-center col-2"></th> -->
                     <% } else { %>
                         <th class="text-center col-3">Name</th>
                         <th class="text-center col-3">Contact number</th>
@@ -38,7 +38,7 @@
                             <td class="text-center col-3"><%= ContactList[count].name %></td>
                             <td class="text-center col-3"><%= ContactList[count].number %></td>
                             <td class="text-center col-3"><%= ContactList[count].email %></td>
-                            <td class="text-center col-1">
+                            <!-- <td class="text-center col-1"> -->
                                 <a href="/contact/edit/<%= ContactList[count]._id %>" class="btn btn-primary btn-sm">
                                 <i class="fas fa-pencil-alt"></i> Edit</a>
                             </td>
