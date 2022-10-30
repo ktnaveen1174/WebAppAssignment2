@@ -34,14 +34,14 @@
   "main": "server.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ktnaveen1174/naveenewbapp2.git"
+    "url": "git+https://github.com/ktnaveen1174/WebAssignment2.git"
   },
   "author": "Naveen Kanmani Thirunavukkarasu",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ktnaveen1174/naveenewbapp2/issues"
+    "url": "https://github.com/ktnaveen1174/WebAssignment2/issues"
   },
-  "homepage": "https://github.com/ktnaveen1174/naveenewbapp2#readme",
+  "homepage": "https://github.com/ktnaveen1174/WebAssignment2#readme",
   "devDependencies": {
     "@types/connect-flash": "^0.0.37",
     "@types/cors": "^2.8.12",
